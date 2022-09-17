@@ -1,9 +1,9 @@
 import Character from './Character';
 
-class Bowman extends Character {
+export default class Bowman extends Character {
   constructor(name, type) {
     super(name, type);
-    super.attack = 25;
-    super.defence = 25;
+    this.attack = 25;
+    this.defence = 25;
   }
 }
